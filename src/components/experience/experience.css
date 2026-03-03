@@ -50,6 +50,34 @@
       color: var(--color-primary);
 }
 
+.timeline__item ul {
+  margin-top: 1.2rem;
+  padding-left: 0;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.timeline__item ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 1.4rem;
+  font-size: var(--small-font-size);
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+/* Custom clean dot */
+.timeline__item ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+
 
 /************ MEDIA QUERIES ( MEDIUM DEVICES ) ***********/
 @media screen and (max-width: 1024px){
