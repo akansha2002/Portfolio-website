@@ -20,10 +20,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href='https://www.linkedin.com/in/akansha-aggarwal-991780204/' target='_blank'><FaLinkedinIn/></a>
-        <a href='https://www.instagram.com/_akansha_aggarwal_/' target='_blank'><FiInstagram/></a>
-        <a href='https://twitter.com/Akansha272' target='_blank'><IoLogoTwitter/></a>
-        <a href='https://github.com/akansha2002' target='_blank'><FaGithub/></a>
+        <a href='https://www.linkedin.com/in/akansha-aggarwal-991780204/' target='_blank' rel="noreferrer"><FaLinkedinIn/></a>
+        <a href='https://www.instagram.com/_akansha_aggarwal_/' target='_blank' rel="noreferrer"><FiInstagram/></a>
+        <a href='https://twitter.com/Akansha272' target='_blank' rel="noreferrer"><IoLogoTwitter/></a>
+        <a href='https://github.com/akansha2002' target='_blank' rel="noreferrer"><FaGithub/></a>
       </div>
 
       <div className="footer__copyright">

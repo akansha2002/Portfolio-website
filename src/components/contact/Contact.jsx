@@ -27,20 +27,20 @@ const Contact = () => {
             <MdOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>akanshaaggarwal9876@gmail.com</h5>
-            <a href='mailto:akanshaaggarwal9876@gmail.com' target='_blank'>Send a message</a>
+            <a href='mailto:akanshaaggarwal9876@gmail.com' target='_blank' rel="noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>+91 9810604335</h5>
-            <a href='https://m.me/ernest.achiever' target='_blank'>Call</a>
+            <a href='https://m.me/ernest.achiever' target='_blank' rel="noreferrer">Call</a>
           
             </article>
           <article className='contact__option'>
             <BsLinkedin className='contact__option-icon'/>
             <h4>Linkedin</h4>
             <h5>akansha-aggarwal-991780204</h5>
-            <a href='https://api.whatsapp.com/send?phone+919876804335' target='_blank'>Connect</a>
+            <a href='https://api.whatsapp.com/send?phone+919876804335' target='_blank' rel="noreferrer">Connect</a>
           
             </article>
 
